@@ -1,7 +1,7 @@
 # Suboptimal Response to Statins (SoRS) Meta-analysis
 
 This repository contains the R Markdown workflow and accompanying resources for the study:  
-**"Prevalence and Predictors of Suboptimal Response to Statins in Primary Prevention: A Systematic Review and Meta-analysis"** by Elias Yeshitila.
+**"Prevalence and Predictors of Suboptimal Response to Statins in Primary Prevention: A Systematic Review and Meta-analysis"** by Elias Yeshitila, MD, MPhil.
 
 ## Contents
 - `R_code_for_meta-analysis.R`
@@ -19,7 +19,6 @@ This repository contains the R Markdown workflow and accompanying resources for 
 4. Run the `R_code_for_meta-analysis.R` file to reproduce the analysis.
 
 ## Requirements
-- R (≥ 4.2)
 - All package versions are automatically managed via `renv.lock`.
 
 ## Contact
