@@ -17,6 +17,7 @@ This repository contains the R Markdown workflow and accompanying resources for 
    renv::restore()
    ```
 4. Run the `R_code_for_meta-analysis.R` file to reproduce the analysis.
+5. PDF file containing the plots and tables will be generated automatically in the unzipped folder after running the R code.
 
 ## Requirements
 - All package versions are automatically managed via `renv.lock`.
