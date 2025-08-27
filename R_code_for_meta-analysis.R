@@ -1,6 +1,5 @@
 #Three‑level meta‑analysis of LDL thresholds (≥5 studies) – SE + Prediction I‑95
 library(metafor)
-setwd("C:/Users/ey270/Downloads/SoRS_meta_analysis_package")
 ## ---------------------------------------------------------------------------
 ## 1. Load data
 ## ---------------------------------------------------------------------------
@@ -912,3 +911,4 @@ for (thr in sort(unique(df_sensitivity$Goal_threshold))) {
 
 write.csv(heterogeneity_log_sens, "heterogeneity_summary_sensitivity.csv", row.names = FALSE)
 cat("\n✓ heterogeneity_summary_sensitivity.csv written\n")
+
